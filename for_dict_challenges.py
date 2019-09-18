@@ -160,6 +160,9 @@ def gender_count(school, is_male):
 school = [
   {'class': '2a', 'students': [{'first_name': 'Маша'}, {'first_name': 'Оля'}]},
   {'class': '3c', 'students': [{'first_name': 'Олег'}, {'first_name': 'Миша'}]},
+  {'class': '1a', 'students': [{'first_name': 'Маша'}, {'first_name': 'Оля'}]},
+  {'class': '4б', 'students': [{'first_name': 'Маша'}, {'first_name': 'Оля'}]},
+  {'class': '7a', 'students': [{'first_name': 'Маша'}, {'first_name': 'Оля'}]},
 ]
 is_male = {
   'Маша': False,

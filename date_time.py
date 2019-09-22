@@ -57,3 +57,8 @@ print('Месяц назад:',month_later.strftime('%d.%m.%Y'))
 time = '01/01/17 12:10:03.234567'
 date_time = datetime.strptime(time, '%m/%d/%y %H:%M:%S.%f')
 print(date_time)
+
+dt_time = '2019/10/13 21:07:51'
+res_dt = datetime.strptime(dt_time, '%Y/%m/%d %H:%M:%S')
+print(res_dt.strftime('%A %d %B %Y'))
+print(dt_time)
